@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="actions" extends="struts-default">
+<action name="authorfind" class="lab2p.bookAction">
+<result>/booklist.jsp</result></action>
+<action name="bookif" class="lab2p.bookiAction">
+<result>/bookinf.jsp</result>
+</action>
+<action name="deldata" class="lab2p.delAction">
+<result>/delinf.jsp</result></action>
+<action name="authorif" class="lab2p.authoriAction">
+<result>/authorinf.jsp</result></action>
+<action name="newbook" class="lab2p.newbookAction">
+<result>/addbook.jsp</result></action>
+<action name="addbook"  class="lab2p.addbookAction">
+<result name="ok">/bookok.jsp</result>
+<result name="newauthor">/newauthor.jsp</result></action>
+<action name="addauthor" class="lab2p.addauthorAction">
+<result name="SUCCESS">/authorok.jsp</result></action>
+</package>
+</struts>    

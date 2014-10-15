@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="actions" location="221,11" size="525,560">
+    <action name="authorfind" location="311,58" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="booklist.jsp" />
+      </result>
+    </action>
+    <action name="bookif" location="311,163" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="bookinf.jsp" />
+      </result>
+    </action>
+    <action name="deldata" location="311,268" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="delinf.jsp" />
+      </result>
+    </action>
+    <action name="authorif" location="311,373" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="authorinf.jsp" />
+      </result>
+    </action>
+    <action name="newbook" location="311,478" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addbook.jsp" />
+      </result>
+    </action>
+    <action name="addbook" location="66,468" size="150,62">
+      <result name="ok">
+        <resourceEdge source="ok" routing="0" target="bookok.jsp" />
+      </result>
+      <result name="newauthor">
+        <resourceEdge source="newauthor" routing="0" target="newauthor.jsp" />
+      </result>
+    </action>
+    <action name="addauthor" location="66,373" size="150,41">
+      <result name="SUCCESS">
+        <resourceEdge source="SUCCESS" routing="0" target="authorok.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="booklist.jsp" path="/booklist.jsp" location="815,52" size="150,55" />
+  <webResource name="bookinf.jsp" path="/bookinf.jsp" location="815,157" size="150,55" />
+  <webResource name="delinf.jsp" path="/delinf.jsp" location="815,262" size="150,55" />
+  <webResource name="authorinf.jsp" path="/authorinf.jsp" location="815,367" size="150,55" />
+  <webResource name="addbook.jsp" path="/addbook.jsp" location="815,472" size="150,55" />
+  <webResource name="bookok.jsp" path="/bookok.jsp" location="10,472" size="150,55" />
+  <webResource name="newauthor.jsp" path="/newauthor.jsp" location="524,580" size="150,55" />
+  <webResource name="authorok.jsp" path="/authorok.jsp" location="10,367" size="150,55" />
+</Struts2Diagram>
+
