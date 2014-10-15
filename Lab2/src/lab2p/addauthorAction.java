@@ -1,7 +1,7 @@
 package lab2p;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ActionContext;
-import lab2p.author;
+ lab2p.author;
 public class addauthorAction extends ActionSupport
 {
 	public author myauthor=new author();

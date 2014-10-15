@@ -4,7 +4,7 @@ import com.opensymphony.xwork2.ActionContext;
 import lab2p.book;
 public class addbookAction extends ActionSupport
 {
-	public book mybook=new book();
+	public mybook=new book();
 	private sqlfind sf=new sqlfind();
 	private String name;
 	private String isbn;

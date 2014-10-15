@@ -12,7 +12,7 @@ public class author
 	}
 	public void setAuthorID(String authorID)
 	{
-		this.authorID=authorID;
+		.authorID=authorID;
 	}
 	public String getName()
 	{
